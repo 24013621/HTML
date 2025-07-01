@@ -1,3 +1,76 @@
 QUESTION
 
-  
+Create a Webpage with Inline and Block Elements. Demonstrate understanding of <span> vs <div>, and other element
+
+PROGRAM 
+
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Inline and Block Elements</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 30px;
+      background-color: #f0f0f0;
+      text-align: center;
+    }
+    .name {
+      font-size: 20px;
+      font-weight: bold;
+      margin-bottom: 20px;
+      color: #333;
+    }
+    .block {
+      background-color: #d4edda;
+      padding: 15px;
+      margin-bottom: 20px;
+      border-radius: 8px;
+    }
+    .inline {
+      background-color: #f8d7da;
+      padding: 4px 8px;
+      border-radius: 4px;
+    }
+    .comparison {
+      margin-top: 30px;
+      display: inline-block;
+      text-align: left;
+      background-color: #e2e3e5;
+      padding: 20px;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="name">Name: AHAMED JASEER SHA .E</div>
+
+  <h1>Inline and Block Elements</h1>
+
+  <!-- Block-level element using <div> -->
+  <div class="block">
+    This is a block-level element using &lt;div&gt;.<br>
+    It takes up the full width of the parent.
+  </div>
+
+  <!-- Inline element using <span> -->
+  <p>
+    This is a paragraph with an 
+    <span class="inline">inline element</span> 
+    using &lt;span&gt; tag inside it.
+  </p>
+
+  <!-- Comparison -->
+  <div class="comparison">
+    <h3>Comparison:</h3>
+    <p><strong>&lt;div&gt;:</strong> Block-level, starts on a new line, takes full width.</p>
+    <p><strong>&lt;span&gt;:</strong> Inline, stays within the same line as surrounding text.</p>
+  </div>
+
+</body>
+</html>
+
+OUTPUT 
+ 
